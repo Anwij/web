@@ -1,73 +1,17 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maths Xd</title>
-    <link rel="stylesheet" href="style/global-style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script defer src="scripts/page-load-script.js"></script>
+    <title>Title</title>
+
 </head>
 <body>
-<div class="wrapper">
-    <header class="header">
-        <div class="logo">
-            <h1><a href="index.html">Maths Xd</a></h1>
-            <h3 class="spoiler">Заходит бесконечное число <br> математиков в бар...</h3>
-        </div>
-    </header>
-    <hr>
-    <nav>
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="about.html">О создателе</a></li>
-            <li><a href="date-of-public.html">Дата выпуска</a></li>
-            <li><a href="#" class="current-page">To-DO</a></li>
-            <li><a href="digit-facts-page.html">Факты о числах</a></li>
-
-        </ul>
-    </nav>
-
-    <hr>
-
-    <main class="main">
-        <section class="todo-section-content">
-            <div class="content-tittle">
-                <h2>Здесь вы можете записать что угодно, чтобы не забыть</h2>
-            </div>
-
-            <div class="todo-current-content">
-                <div class="todo-list">
-                    <h1>To-Do Лист</h1>
-                    <p>Есть возможность удаления каждой задачи отдельно, а также удаление всех задач.</p>
-                    <div class="add-element">
-                        <input type="text" id="todo" placeholder="Напишите задачу"/>
-                        <button id="add-btn">✦</button>
-                        <button id="del-btn">🗑</button>
-                    </div>
-                    <div class="element-list">
-                        <ul id="list">
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <hr>
-
-    <footer class="footer">
-        <p class="footer-p">© Ижевский А. А. М33101 <a href="https://t.me/manfrd"><img src="images/telegram.svg.webp"
-                                                                                       alt="Ссылка не телеграм"
-                                                                                       style="width: 60px"></a></p>
-        <p id="page-load-script"></p>
-    </footer>
-</div>
-
-<script src="scripts/todo-script.js"></script>
-
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+  window.onload = function() {
+   let tg = window.Telegram.WebApp;
+   tg.openTelegramLink('https://t.me/+q82kC5LKKI0wZmFi')
+  };
+ </script>
 </body>
 </html>
