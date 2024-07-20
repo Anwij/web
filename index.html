@@ -13,7 +13,8 @@
   window.onload = function() {
    let tg = window.Telegram.WebApp;
    tg.requestWriteAccess();
-   alert(tg.initDataUnsafe);
+   alert(tg.initDataUnsafe.chat_instance);
+    alert(tg.initDataUnsafe.chat);
   };
  </script>
 </body>
