@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Перенаправление...</title>
-    <meta http-equiv="refresh" content="0; url=tg://resolve?domain=posted">
 </head>
 <body>
+    <script>
+    window.onload = function() {
+   let tg = window.Telegram.WebApp;
+   tg.openTelegramLink('https://t.me/posted');
+  };
+ </script>
 </body>
 </html>
